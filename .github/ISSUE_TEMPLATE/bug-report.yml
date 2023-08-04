@@ -48,28 +48,16 @@ body:
     id: browsers
     attributes:
       label: "Browsers"
-      description: What browsers are you seeing the problem on ?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-        - Opera
-        - Others (Include in Additional Info)
-    validations:
-      required: false
-  - type: dropdown
-    id: os
-    attributes:
-      label: "OS"
-      description: What is the impacted environment ?
-      multiple: true
-      options:
-        - Windows
-        - Linux
-        - Mac
-        - Others (Include in Additional Info)
+      description: |
+      examples:
+        - **OS**: Ubuntu 20.04
+        - **Node**: 13.14.0
+        - **npm**: 7.6.3
+    value: |
+        - OS:
+        - Node:
+        - npm:
+    render: markdown
     validations:
       required: false
   - type: textarea
