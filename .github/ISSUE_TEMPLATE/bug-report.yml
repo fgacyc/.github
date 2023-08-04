@@ -44,28 +44,25 @@ body:
       render: bash
     validations:
       required: false
-  - type: dropdown
-    id: browsers
+  - type: textarea
     attributes:
-      label: "Browsers"
+      label: Environment
       description: |
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
-    value: |
-        - OS:
-        - Node:
-        - npm:
-    render: markdown
-    validations:
+        examples:
+          - **OS**: Ubuntu 20.04
+          - **Node**: 13.14.0
+          - **npm**: 7.6.3
+      value: |
+          - OS:
+          - Node:
+          - npm:
+      render: markdown
+     validations:
       required: false
   - type: textarea
-    id: addtional_info
+    id: additional_info
     attributes: 
       label: "Additional Info"
       description: Please add any additional information if necessary
     validations:
       required: false
-
-  
