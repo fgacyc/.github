@@ -57,7 +57,7 @@ body:
           - Node:
           - npm:
       render: markdown
-     validations:
+    validations:
       required: false
   - type: textarea
     id: additional_info
