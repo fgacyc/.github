@@ -25,7 +25,10 @@ body:
     attributes:
       label: General things to do
       description: A list of items to be completed for this feature
-      value: "- [] Example: Track user actions and analytics with Google Analytics"
+      value: |
+        1. Track user interactions with Google Analytics (✅ when done)
+        2. ...
+        3. ...
       render: markdown
     validations: 
         required: true
