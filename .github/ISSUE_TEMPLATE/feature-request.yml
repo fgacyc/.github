@@ -21,13 +21,15 @@ body:
       placeholder: A few specific words about your feature request.
     validations:
       required: true
-  - type: checkboxes
+  - type: textarea
     attributes:
       label: General things to do
       description: A list of items to be completed for this feature
-      options:
-        - label: "Example: Track user actions and analytics with Google Analytics"
-          required: true
+      value: |
+        - [] Example: Track user actions and analytics with Google Analytics
+      render: markdown
+      validations: 
+        required: true
   - type: textarea
     id: unresolved_question
     attributes:
