@@ -1,5 +1,5 @@
 name: "🐛 Bug Report"
-description: Report bugs
+description: Create a bug report to track bugs
 title: "🐛 [BUG] - <title>"
 labels: [
   "bug"
