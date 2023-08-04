@@ -26,7 +26,6 @@ body:
       label: General things to do
       description: A list of items to be completed for this feature
       value: "- [ ] Example: Track user actions and analytics with Google Analytics"
-      render: markdown
     validations: 
         required: true
   - type: textarea
