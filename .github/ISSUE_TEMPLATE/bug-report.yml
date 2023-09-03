@@ -23,7 +23,7 @@ body:
         2. Click on '...'
         3. Scroll to '...'
         4. See error
-      render: bash
+      render: markdown
     validations: 
       required: true
   - type: textarea
@@ -33,7 +33,7 @@ body:
       description: If applicable, add screenshots to help explain your problem.
       value: |
         ![DESCRIPTION](LINK.png)
-      render: bash
+      render: markdown
     validations:
       required: false
   - type: textarea
